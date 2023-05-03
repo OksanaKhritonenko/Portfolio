@@ -26,6 +26,19 @@ h2 {
   height: 1.5;
   margin: 45px 0;
 }
+
+.projects-link,
+.contact-link {
+  border: 1px solid #212529;
+  border-radius: 5px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
 footer {
   font-size: small;
   text-align: center;
