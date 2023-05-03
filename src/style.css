@@ -17,18 +17,24 @@ body {
 h1 {
   font-weight: bold;
   font-size: 46px;
-  height: 1.5;
+  line-height: 1.5;
 }
 
 h2 {
   font-weight: normal;
   font-size: 32px;
-  height: 1.5;
+  line-height: 1.5;
   margin: 45px 0;
 }
 
+h3 {
+  font-weight: bolder;
+}
+
 .projects-link,
-.contact-link {
+.contact-link,
+.weather-link,
+.amigurumi-link {
   border: 1px solid #212529;
   border-radius: 5px;
   background-color: #212529;
@@ -37,6 +43,23 @@ h2 {
   padding: 15px 15px;
   margin-right: 25px;
   font-size: 16px;
+}
+
+.heading {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 footer {

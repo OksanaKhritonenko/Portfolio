@@ -25,37 +25,104 @@
     <title>Projects</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Oksana Khritonenko</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Oksana Khritonenko</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
+              <a class="nav-link" href="projects.html" title="About me"
+                >Projects</a
+              >
+              <a class="nav-link" href="about.html" title="About me"
+                >About me</a
+              >
+              <a class="nav-link" href="contact.html" title="Contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <h1 class="heading text-center">My Projects</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Weather App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+
+          <div class="project-link">
             <a
-              class="nav-link active"
-              aria-current="page"
-              href="index.html"
-              title="Homepage"
-              >Home</a
+              href="https://merry-kataifi-1052f7.netlify.app"
+              class="weather-link"
+              title="real-time weather application"
+              >Launch Weather app</a
             >
-            <a class="nav-link" href="projects.html" title="About me"
-              >Projects</a
-            >
-            <a class="nav-link" href="about.html" title="About me">About me</a>
-            <a class="nav-link" href="contact.html" title="Contact">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              src="images/weather.png"
+              class="img-fluid border rounded m-25 shadow d-none d-md-block d-lg-block"
+              alt="weather app image"
+            />
           </div>
         </div>
       </div>
-    </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box">
+              <img
+                src="images/amigurumi.png"
+                class="img-fluid border rounded m-25 shadow d-none d-md-block d-lg-block"
+                alt="Amigurumi app image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Amigurumi App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+
+            <div class="project-link">
+              <a href="#" class="amigurumi-link" title="Amigurumi project"
+                >Launch Amigurumi app</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Coded by Oksana Khritonenko</footer>
   </body>
 </html>
