@@ -13,3 +13,20 @@ body {
   background-repeat: no-repeat;
   font-family: "Source Serif Pro", serif;
 }
+
+h1 {
+  font-weight: bold;
+  font-size: 46px;
+  height: 1.5;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 32px;
+  height: 1.5;
+  margin: 45px 0;
+}
+footer {
+  font-size: small;
+  text-align: center;
+}
