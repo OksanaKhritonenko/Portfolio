@@ -106,8 +106,10 @@ button:hover {
   transition: 200ms ease-in-out;
 }
 .portret {
-  max-width: 25%;
-  position: fixed;
-  right: 70px;
-  top: 200px;
+  width: 100%;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: normal;
 }
