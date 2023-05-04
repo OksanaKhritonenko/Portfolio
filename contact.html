@@ -21,41 +21,119 @@
       href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/458b9ff982.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="src/style.css" rel="stylesheet" type="text/css" />
     <title>Contact me</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Oksana Khritonenko</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="index.html"
-              title="Homepage"
-              >Home</a
-            >
-            <a class="nav-link" href="projects.html" title="About me"
-              >Projects</a
-            >
-            <a class="nav-link" href="about.html" title="About me">About me</a>
-            <a class="nav-link" href="contact.html" title="Contact">Contact</a>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Oksana Khritonenko</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
+              <a class="nav-link" href="projects.html" title="About me"
+                >Projects</a
+              >
+              <a class="nav-link" href="about.html" title="About me"
+                >About me</a
+              >
+              <a class="nav-link" href="contact.html" title="Contact"
+                >Contact</a
+              >
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
     </nav>
+    <h1 class="text-center">Contact me for colaboration</h1>
+
+    <div class="contact-me">
+      <div class="contact-email">
+        Send an email to
+        <a href="mailto:[email]" class="email-link" title="email-link">
+          o.khritonenko@gmail.com
+        </a>
+      </div>
+
+      <div class="contact-linkedin">
+        Get connected via Linkedin
+        <a
+          href="https://www.linkedin.com/in/
+oksana-khritonenko-42904796"
+          target="_blank"
+          title="linkedin-link"
+          ><i class="fa-brands fa-linkedin fa-lg"></i
+        ></a>
+      </div>
+    </div>
+    <div class="container ps-5 m-5">
+      <div class="row">
+        <div class="col">
+          <div class="message-form">
+            <h3 class="p-10px">Send me a message</h3>
+            <div class="mb-3 col-md-6">
+              <label for="first-name" class="form-label">First name</label>
+              <input
+                type="first-name"
+                class="form-control"
+                id="customer-name"
+                placeholder=""
+              />
+
+              <label for="last-name" class="form-label">Last name</label>
+              <input
+                type="last-name"
+                class="form-control"
+                id="customer-last-name"
+                placeholder=""
+              />
+              <label for="email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="customer-email"
+                placeholder=""
+              />
+            </div>
+            <div class="mb-3 col-md-6">
+              <label for="message-text" class="form-label">Your message</label>
+              <textarea
+                class="form-control"
+                id="customer-message"
+                rows="7"
+              ></textarea>
+            </div>
+            <button class="submit">Send</button>
+          </div>
+        </div>
+        <div class="col">
+          <img src="/images/mail.svg" alt="mail img" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <footer>Coded by Oksana Khritonenko</footer>
   </body>
 </html>

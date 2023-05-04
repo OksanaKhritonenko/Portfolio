@@ -66,3 +66,42 @@ footer {
   font-size: small;
   text-align: center;
 }
+
+.message-form {
+  display: block;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 1.7;
+}
+
+.form-control {
+  background: transparent;
+  border: 1px solid #212529;
+}
+
+.contact-me {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 100px;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 2;
+}
+button {
+  border: 1px solid #212529;
+  border-radius: 5px;
+  background-color: #212529;
+  color: white;
+  padding: 10px 25px;
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+button:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: #212529;
+  transition: 200ms ease-in-out;
+}
