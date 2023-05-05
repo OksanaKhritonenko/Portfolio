@@ -123,6 +123,10 @@ button:hover {
 .box-data {
   padding-left: 50px;
   padding-right: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 576px) {
@@ -164,10 +168,7 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 20px;
   }
-  .box-data {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+
   .contact-me {
     text-align: center;
     margin-top: 30px;
@@ -176,5 +177,13 @@ button:hover {
     font-size: 18px;
     font-weight: bolder;
     line-height: 2;
+  }
+  .box-data {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
