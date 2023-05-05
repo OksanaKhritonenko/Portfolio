@@ -56,6 +56,10 @@ h3 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -120,6 +124,7 @@ button:hover {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
