@@ -88,48 +88,57 @@ oksana-khritonenko-42904796"
         ></a>
       </div>
     </div>
-    <div class="container ps-5 m-5">
+    <div container>
       <div class="row">
-        <div class="col">
-          <div class="message-form">
-            <h3 class="p-10px">Send me a message</h3>
-            <div class="mb-3 col-md-6">
-              <label for="first-name" class="form-label">First name</label>
+        <div class="col-md-6">
+          <img src="/images/mail.svg" alt="mail img" class="img-fluid" />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="message">Send me a message</h5>
+            </div>
+          </div>
+
+          <div class="card" aria-hidden="true">
+            <div class="card-body">
+              <div class="card-text">First name</div>
               <input
                 type="first-name"
                 class="form-control"
                 id="customer-name"
                 placeholder=""
               />
-
-              <label for="last-name" class="form-label">Last name</label>
+              <div class="card-text">Last name</div>
               <input
                 type="last-name"
                 class="form-control"
                 id="customer-last-name"
                 placeholder=""
               />
-              <label for="email" class="form-label">Email address</label>
+              <div class="card-text">Your email</div>
+
               <input
                 type="email"
                 class="form-control"
                 id="customer-email"
                 placeholder=""
               />
+              <div class="customer-message">
+                <label for="message-text" class="form-label"
+                  >Your message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="customer-message"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <button class="submit">Send</button>
             </div>
-            <div class="mb-3 col-md-6">
-              <label for="message-text" class="form-label">Your message</label>
-              <textarea
-                class="form-control"
-                id="customer-message"
-                rows="7"
-              ></textarea>
-            </div>
-            <button class="submit">Send</button>
           </div>
-        </div>
-        <div class="col">
-          <img src="/images/mail.svg" alt="mail img" class="img-fluid" />
         </div>
       </div>
     </div>
