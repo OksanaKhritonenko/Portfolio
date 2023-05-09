@@ -348,6 +348,9 @@ textarea.input {
 }
 
 @media (max-width: 850px) {
+  .col-md-7 {
+    width: 100%;
+  }
   .form {
     grid-template-columns: 1fr;
   }
@@ -409,4 +412,19 @@ textarea.input {
 .icon {
   color: #212529;
   padding-right: 30px;
+}
+
+.mail-img {
+  max-width: 100%;
+  padding-top: 120px;
+}
+
+@media (width: 1024px) {
+  .col-md-7 {
+    width: 100%;
+  }
+  .col-md-5 {
+    width: 70%;
+    padding-top: 0px;
+  }
 }
