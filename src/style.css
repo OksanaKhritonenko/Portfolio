@@ -400,4 +400,13 @@ textarea.input {
   .btn {
     padding: 7px 19px;
   }
+  .icon {
+    color: #212529;
+    padding-right: 10px;
+  }
+}
+
+.icon {
+  color: #212529;
+  padding-right: 30px;
 }
