@@ -138,7 +138,7 @@ footer {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 32px;
   background-color: transparent;
   overflow: hidden;
   display: flex;
@@ -175,23 +175,23 @@ footer {
 }
 
 form {
-  padding: 2.3rem 2.2rem;
+  padding: 37px 36px;
   z-index: 10;
   overflow: hidden;
   position: relative;
 }
 
 .title {
-  color: 212529;
+  color: #212529;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1;
-  margin-bottom: 0.7rem;
+  margin-bottom: 11px;
 }
 
 .input-container {
   position: relative;
-  margin: 1rem 0;
+  margin: 24px 0;
 }
 
 .input {
@@ -199,17 +199,17 @@ form {
   outline: none;
   border: 2px solid #212529;
   background: none;
-  padding: 0.6rem 1.2rem;
+  padding: 10px 19px;
   color: #212529;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 14px;
   letter-spacing: 0.5px;
   border-radius: 25px;
   transition: 0.3s;
 }
 
 textarea.input {
-  padding: 0.8rem 1.2rem;
+  padding: 13px 19px;
   min-height: 150px;
   border-radius: 22px;
   resize: none;
@@ -221,9 +221,9 @@ textarea.input {
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
-  padding: 0 0.4rem;
+  padding: 0 6px;
   color: #212529;
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 400;
   pointer-events: none;
   z-index: 1000;
@@ -231,15 +231,15 @@ textarea.input {
 }
 
 .input-container.textarea label {
-  top: 1rem;
+  top: 16px;
   transform: translateY(0);
 }
 
 .btn {
-  padding: 0.6rem 1.3rem;
+  padding: 10px 21px;
   background-color: transparent;
   border: 2px solid #212529;
-  font-size: 0.95rem;
+  font-size: 15px;
   color: #212529;
   line-height: 1;
   border-radius: 25px;
@@ -259,8 +259,8 @@ textarea.input {
   top: 0;
   left: 25px;
   transform: translateY(-50%);
-  font-size: 0.8rem;
-  padding: 0 0.4rem;
+  font-size: 13px;
+  padding: 0 6px;
   color: transparent;
   pointer-events: none;
   z-index: 500;
@@ -291,7 +291,7 @@ textarea.input {
   top: 0;
   transform: translateY(-100%);
   left: 25px;
-  font-size: 0.8rem;
+  font-size: 14px;
 }
 
 .input-container.focus span:before,
@@ -301,25 +301,25 @@ textarea.input {
 }
 
 .contact-info {
-  padding: 2.3rem 2.2rem;
+  padding: 37px 36px;
   position: relative;
 }
 
 .text {
   color: #212529;
-  margin: 1.5rem 0 2rem 0;
+  margin: 24px 0 32px 0;
 }
 
 .information {
   display: flex;
   color: #212529;
-  margin: 0.7rem 0;
+  margin: 11px 0;
   align-items: center;
-  font-size: 0.95rem;
+  font-size: 15px;
 }
 
 .social-media {
-  padding: 2rem 0 0 0;
+  padding: 32px 0 0 0;
 }
 
 .social-media p {
@@ -328,7 +328,7 @@ textarea.input {
 
 .social-icons {
   display: flex;
-  margin-top: 0.5rem;
+  margin-top: 8px;
 }
 
 .social-icons a {
@@ -339,7 +339,7 @@ textarea.input {
   color: #fff;
   text-align: center;
   line-height: 35px;
-  margin-right: 0.5rem;
+  margin-right: 8px;
   transition: 0.3s;
 }
 
@@ -359,32 +359,32 @@ textarea.input {
   }
 
   .text {
-    margin: 1rem 0 1.5rem 0;
+    margin: 16px 0 24px 0;
   }
 
   .social-media {
-    padding: 1.5rem 0 0 0;
+    padding: 24px 0 0 0;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 1.5rem;
+    padding: 24px;
   }
 
   form,
   .contact-info {
-    padding: 1.7rem 1.6rem;
+    padding: 27px 26px;
   }
 
   .text,
   .information,
   .social-media p {
-    font-size: 0.8rem;
+    font-size: 13px;
   }
 
   .title {
-    font-size: 1.15rem;
+    font-size: 18px;
   }
 
   .social-icons a {
@@ -394,10 +394,10 @@ textarea.input {
   }
 
   .input {
-    padding: 0.45rem 1.2rem;
+    padding: 7px 19px;
   }
 
   .btn {
-    padding: 0.45rem 1.2rem;
+    padding: 7px 19px;
   }
 }
