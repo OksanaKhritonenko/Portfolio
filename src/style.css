@@ -72,51 +72,6 @@ footer {
   text-align: center;
 }
 
-.card {
-  width: 100px 200px;
-  background: transparent;
-  color: black;
-  display: flex;
-  margin-right: 45px;
-  margin-left: 45px;
-}
-.card-body {
-  border: 1px solid black;
-  border-radius: 4px;
-}
-.form-control {
-  background: transparent;
-  border: 1px solid black;
-  border-radius: 4px;
-}
-
-.contact-me {
-  display: block;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-left: 100px;
-  font-size: 24px;
-  font-weight: bolder;
-  line-height: 2;
-}
-/* button {
-  border: 1px solid #212529;
-  border-radius: 5px;
-  background-color: #212529;
-  color: white;
-  padding: 10px 25px;
-  margin-right: 25px;
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: normal;
-}
-button:hover {
-  border: 1px solid #212529;
-  border-radius: 5px;
-  background-color: transparent;
-  color: #212529;
-  transition: 200ms ease-in-out;
-} */
 .portret {
   width: 100%;
 }
@@ -169,15 +124,6 @@ button:hover {
     margin-bottom: 20px;
   }
 
-  /* .contact-me {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 0;
-    font-size: 18px;
-    font-weight: bolder;
-    line-height: 2;
-  } */
   .box-data {
     padding-left: 10px;
     padding-right: 10px;
@@ -188,13 +134,7 @@ button:hover {
   }
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-.container {
+.container-contact {
   position: relative;
   width: 100%;
   min-height: 100vh;
